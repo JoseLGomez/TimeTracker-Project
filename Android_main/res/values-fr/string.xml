@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Time Tracker Practices DS</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="action_stopTasks">Arrêter la tâche</string>
+    <string name="action_runTasks">Exécuter des tâches</string>
+    <string name="action_NewProject">Nouveau projet</string>
+    <string name="action_NewTask">Nouvelle tâche</string>
+    <string name="action_Search">Classement par date</string>
+    <string name="action_Search1">Classement par nom</string>
+    <string name="load">Chargement en cours....</string>
+    <string name="hello">Bonjour Time Tracker DS</string>
+    <string name="Dialog_Exit"> Il ya des emplois actifs, continue à être arrêté et ces tâches sont stockés </string>
+    <string name="Dialog_accept"> OK </string>
+    <string name="Dialog_cancel"> Annuler </string>
+    <string name="edit">Modifier</string>
+
+    <string name="title_activity_setting">Paramètres</string>
+    <string name="setting_Save">Enregistrer le fichier:</string>
+    <string name="setting_CoolIU">Rafraîchissement IU:</string>
+    <string name="setting_CoolClock">Rafra. Horloge:</string>
+    <string name="btnSetting_Save">+</string>
+    <string name="setting_Language">Select Language:</string>
+    <string-array name="setting_opcionsArraysLanguaje">
+        <item>en</item>
+        <item>es</item>
+        <item>ca</item>
+        <item>fr</item>
+    </string-array>
+    <string name="setting_formatDate">Format Date:</string>
+    <string-array name="setting_opcionsArraysFormatDate">
+        <item>dd/MM/yyyy</item>
+        <item>MM/dd/yyyy</item>
+        <item>yyyy/MM/dd</item>
+    </string-array>
+    <string name="setting_DialogBox_Title">Attention</string>
+    <string name="setting_DialogBox_Message">Redémarrez l\'application pour appliquer tous les changements.</string>
+    <string name="setting_DialogBox_ok">Ok</string>
+
+
+    <string name="title_activity_new_project_add">Nouveau projet</string>
+    <string name="NewProject_Name">Nom:</string>
+    <string name="NewProject_Description">Description:</string>
+    <string name="btnNewProject_Save">+</string>
+
+    <string name="title_activity_new_task_add">Nouvelle tâche</string>
+    <string name="title_edit_setting">Modifier la tâche</string>
+    <string name="NewTask_Name">NOM:</string>
+    <string name="NewTask_Description">Description:</string>
+    <string name="btnNewTask_Save">+</string>
+    <string name="NewTask_Type">Type devoirs:</string>
+    <string name="NewTask_Preprogrammed">Pré-programmé: </string>
+    <string name="NewTask_Limited">Limitée: </string>
+    <string-array name="NewTask_opcionsArraysType">
+        <item>Non</item>
+        <item>Pré-programmé</item>
+        <item>Limitée</item>
+    </string-array>
+
+
+
+
+
+
+    <string name="title_activity_Informe">Rapport</string>
+    <string name="Report_Between">Entre les dates:</string>
+    <string name="Report_Date">Date du rapport:</string>
+    <string-array name="Report_opcionsArrays">
+        <item>aujourd\'hui </item>
+        <item>hier</item>
+        <item>avant-hier </item>
+        <item>la semaine dernière</item>
+        <item>Deux semaines</item>
+        <item>mois dernière</item>
+        <item>deux mois</item>
+        <item>autre</item>
+    </string-array>
+    <string name="Report_DetallBrief">Type de rapport:</string>
+    <string-array name="Report_opcionsArraysDetallBrief">
+        <item>Détail</item>
+        <item>Court</item>
+    </string-array>
+    <string name="Report_HtmlTxt">Rapport Format:</string>
+    <string-array name="Report_opcionsArraysHtmlTxt">
+        <item>Pagina web</item>
+        <item>Texto</item>
+    </string-array>
+    <string name="Report_DialogBox_Title">Attention</string>
+    <string name="Report_DialogBox_Message">Rapport créé.</string>
+    <string name="Report_DialogBox_ok">Ok</string>
+
+</resources>

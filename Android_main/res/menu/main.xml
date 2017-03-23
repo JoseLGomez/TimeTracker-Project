@@ -1,0 +1,46 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_NewTask"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/action_NewTask"
+        android:icon="@drawable/task_plus"
+        android:menuCategory="system"/>
+    <item
+        android:id="@+id/action_Search"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_Search"
+        android:icon="@drawable/search"/>
+    <item
+        android:id="@+id/action_NewProject"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/action_NewProject"
+        android:icon="@drawable/folder_plus"/>
+
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings" />
+     <item
+        android:id="@+id/action_runTasks"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_runTasks" />
+    <item
+        android:id="@+id/action_stopTasks"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_stopTasks" />
+
+    <item android:id="@+id/report_item"
+        android:orderInCategory="100"
+        android:title="@string/title_activity_Informe"
+        android:showAsAction="never"
+        android:icon="@drawable/ic_action_report"/>
+
+</menu>

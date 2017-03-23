@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="iuAndroid.InformeActivity">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/LinearLayoutH"
+            android:gravity="right">
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/add"
+                android:text="+"
+                android:id="@+id/btnReport_Save" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/Layout_ContentDate">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/Report_Date"
+                android:id="@+id/Report_Date" />
+
+            <Spinner
+            android:id="@+id/SpinerReport_DateItems"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/Report_opcionsArrays"
+            android:prompt="@string/Report_Date" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Llayou_OtherDate"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/Report_Between"
+                    android:id="@+id/textView" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="1"
+                    android:visibility="visible">
+
+                    <EditText
+                        android:layout_width="161dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="date"
+                        android:ems="10"
+                        android:id="@+id/Report_DataStart"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="-"
+                        android:id="@+id/textView2" />
+
+                    <EditText
+                        android:layout_width="163dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="date"
+                        android:ems="10"
+                        android:id="@+id/Report_DataEnd" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="69dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/Report_DetallBrief"
+                android:id="@+id/Report_DetallBrief" />
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/SpinerReport_TypeItems"
+                android:entries="@array/Report_opcionsArraysDetallBrief"
+                android:prompt="@string/Report_DetallBrief"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/Report_HtmlTxt"
+                android:id="@+id/HtmlTxt" />
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/SpinerReport_HtmlTxtItems"
+                android:entries="@array/Report_opcionsArraysHtmlTxt"
+                android:prompt="@string/Report_HtmlTxt"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

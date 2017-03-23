@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Time Tracker Practices DS</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_stopTasks">Stop Tasks</string>
+    <string name="action_runTasks">Run Tasks</string>
+    <string name="action_NewProject">New Project</string>
+    <string name="action_NewTask">New Task</string>
+    <string name="action_Search">Order by Date</string>
+    <string name="action_Search1">Order by Name</string>
+    <string name="load">Loading....</string>
+    <string name="hello">Hello Time Tracker DS</string>
+    <string name="Dialog_Exit"> There are tasks active, if you proceed these tasks will be stopped and stored</string>
+    <string name="Dialog_accept"> Accept </string>
+    <string name="Dialog_cancel"> Cancel </string>
+    <string name="edit">edit</string>
+
+    <string name="title_activity_setting">Setting</string>
+    <string name="setting_Save">Save path:</string>
+    <string name="setting_CoolIU">Cool User Interface:</string>
+    <string name="setting_CoolClock">Cool Clock:</string>
+    <string name="btnSetting_Save">+</string>
+    <string name="setting_Language">Select Language:</string>
+    <string-array name="setting_opcionsArraysLanguaje">
+        <item>en</item>
+        <item>es</item>
+        <item>ca</item>
+        <item>fr</item>
+    </string-array>
+    <string name="setting_formatDate">Select format date:</string>
+    <string-array name="setting_opcionsArraysFormatDate">
+        <item>dd/MM/yyyy</item>
+        <item>MM/dd/yyyy</item>
+        <item>yyyy/MM/dd</item>
+    </string-array>
+    <string name="setting_DialogBox_Title">Attention</string>
+    <string name="setting_DialogBox_Message">Restart the app to apply all changes.</string>
+    <string name="setting_DialogBox_ok">Ok</string>
+
+
+
+    <string name="title_activity_new_project_add">New Project</string>
+    <string name="NewProject_Name">Name:</string>
+    <string name="NewProject_Description">Description:</string>
+    <string name="btnNewProject_Save">+</string>
+
+    <string name="title_activity_new_task_add">New Task</string>
+    <string name="title_edit_setting">Edit Task</string>
+    <string name="NewTask_Name">Name:</string>
+    <string name="NewTask_Description">Description:</string>
+    <string name="btnNewTask_Save">+</string>
+    <string name="NewTask_Type">Type Task:</string>
+    <string name="NewTask_Preprogrammed">Preprogrammed: </string>
+    <string name="NewTask_Limited">Limited: </string>
+    <string-array name="NewTask_opcionsArraysType">
+        <item>Any</item>
+        <item>preprogrammed</item>
+        <item>Limited</item>
+    </string-array>
+
+
+
+
+
+
+    <string name="title_activity_Informe">Report</string>
+    <string name="Report_Between">Between dates:</string>
+    <string name="Report_Date">Date Report:</string>
+    <string-array name="Report_opcionsArrays">
+        <item>today</item>
+        <item>yesterday</item>
+        <item>before yesterday</item>
+        <item>last week</item>
+        <item>two weeks ago</item>
+        <item>last month</item>
+        <item>two month ago</item>
+        <item>others</item>
+    </string-array>
+    <string name="Report_DetallBrief">Type Report:</string>
+    <string-array name="Report_opcionsArraysDetallBrief">
+        <item>Detall</item>
+        <item>Brief</item>
+    </string-array>
+    <string name="Report_HtmlTxt">Format Report:</string>
+    <string-array name="Report_opcionsArraysHtmlTxt">
+        <item>Web Page</item>
+        <item>Text</item>
+    </string-array>
+    <string name="Report_DialogBox_Title">Attention</string>
+    <string name="Report_DialogBox_Message">Report create.</string>
+    <string name="Report_DialogBox_ok">Ok</string>
+
+</resources>

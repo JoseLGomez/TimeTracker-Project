@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Time Tracker Practices DS</string>
+    <string name="action_settings">Configuració</string>
+    <string name="action_stopTasks">Aturar Tasques</string>
+    <string name="action_runTasks">Executar Tasques</string>
+    <string name="action_NewProject">Nou Projecte</string>
+    <string name="action_NewTask">Nova Tasca</string>
+    <string name="action_Search">Ordenar per data</string>
+    <string name="action_Search1">Ordenar per nom</string>
+    <string name="load">Carregant....</string>
+    <string name="hello">Hola Time Tracker DS</string>
+    <string name="Dialog_Exit"> Hi ha tasques actives, si continua s\'aturaran i s\'emmagatzemen aquestes tasques </string>
+    <string name="Dialog_accept"> Aceptar </string>
+    <string name="Dialog_cancel"> Cancelar </string>
+    <string name="edit">Editar</string>
+
+    <string name="title_activity_setting">Configuració </string>
+    <string name="setting_Save"> Desar Fitxer:</string>
+    <string name="setting_CoolIU">Refresc Interfície Usuari:</string>
+    <string name="setting_CoolClock">Refresc Rellotge:</string>
+    <string name="btnSetting_Save">+</string>
+    <string name="setting_Language">Selecciona Llenguatge:</string>
+    <string-array name="setting_opcionsArraysLanguaje">
+        <item>en</item>
+        <item>es</item>
+        <item>ca</item>
+        <item>fr</item>
+    </string-array>
+    <string name="setting_formatDate">Format Data:</string>
+    <string-array name="setting_opcionsArraysFormatDate">
+        <item>dd/MM/yyyy</item>
+        <item>MM/dd/yyyy</item>
+        <item>yyyy/MM/dd</item>
+    </string-array>
+    <string name="setting_DialogBox_Title">Atenció</string>
+    <string name="setting_DialogBox_Message">Reinicieu l\'aplicació per aplicar tots els canvis.</string>
+    <string name="setting_DialogBox_ok">Ok</string>
+
+
+    <string name="title_activity_new_project_add">Nou Projecte</string>
+    <string name="NewProject_Name">Nom:</string>
+    <string name="NewProject_Description">Descripció:</string>
+    <string name="btnNewProject_Save">+</string>
+
+    <string name="title_activity_new_task_add">Nova Tasca</string>
+    <string name="title_edit_setting">Edita Tasca</string>
+    <string name="NewTask_Name">Nom:</string>
+    <string name="NewTask_Description">Descripcio:</string>
+    <string name="btnNewTask_Save">+</string>
+    <string name="NewTask_Type">Tipus Tasca:</string>
+    <string name="NewTask_Preprogrammed">Preprogramada: </string>
+    <string name="NewTask_Limited">LLimitada: </string>
+    <string-array name="NewTask_opcionsArraysType">
+        <item>Cap</item>
+        <item>Preprogramada</item>
+        <item>LLimitada</item>
+    </string-array>
+
+
+
+
+
+
+    <string name="title_activity_Informe">Informe</string>
+    <string name="Report_Between">Entre dates:</string>
+    <string name="Report_Date">Data Informe:</string>
+    <string-array name="Report_opcionsArrays">
+        <item>avui</item>
+        <item>ahir</item>
+        <item>abans ahir</item>
+        <item>la setmana passada</item>
+        <item>fa dues setmanes</item>
+        <item> mes passat </item>
+        <item>fa dos mesos</item>
+        <item>altres</item>
+    </string-array>
+    <string name="Report_DetallBrief">Tipus Informe:</string>
+    <string-array name="Report_opcionsArraysDetallBrief">
+        <item>Detall</item>
+        <item>Breu</item>
+    </string-array>
+    <string name="Report_HtmlTxt">Formato Informe:</string>
+    <string-array name="Report_opcionsArraysHtmlTxt">
+        <item>Pàgina web</item>
+        <item>Texto</item>
+    </string-array>
+    <string name="Report_DialogBox_Title">Atenció </string>
+    <string name="Report_DialogBox_Message">Report Creat.</string>
+    <string name="Report_DialogBox_ok">Ok</string>
+
+</resources>
